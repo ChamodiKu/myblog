@@ -1,6 +1,10 @@
 # myblog
 
 This is a simple blog created by using HTML5 and CSS/Javascript framework.
+
+# You can download the code and open "code folder" in any editer and run "index.html". 
+Now you are Done. Welcome to myblog!
+
 In this header you can navigate to Home, Blog, AbutUs, Authors and contact Us pages.
 
 # Sample Uis as below screenshots.
