@@ -332,9 +332,9 @@ section {
     border-color: transparent;
 }
 
-.navbar-brand {
-    margin-left: 5%;
-}
+/*.navbar-brand {*/
+/*    margin-left: 5%;*/
+/*}*/
 
 
 /*---------------------------------------
@@ -397,9 +397,9 @@ section {
 /*    background-image: url(../images/postmenopause_1920x700.jpeg);*/
 /*}*/
 
-.text-center {
-    text-align: center;
-}
+/*.text-center {*/
+/*    text-align: center;*/
+/*}*/
 
 
 /*---------------------------------------
@@ -533,9 +533,9 @@ section {
     position: relative;
 }
 
-/*.courses-image {*/
-/*    background: linear-gradient(to right, #202020, #101010);*/
-/*}*/
+.courses-image {
+    background: linear-gradient(to right, #202020, #101010);
+}
 
 .courses-date {
     background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
@@ -630,6 +630,11 @@ section {
 .news-date span {
     color: #909090;
     font-weight: bold;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 250px;
 }
 
 
@@ -786,7 +791,6 @@ footer .social-icon {
 
 .footer-info {
     margin-right: 2em;
-    margin-left: 5%;
 }
 
 .footer-info h2 {
@@ -842,25 +846,6 @@ footer .social-icon {
     margin-top: 20px;
 }
 
-.control-label {
-    display: flex;
-    align-items: center;
-    width: 500px;
-}
-
-::placeholder {
-    color: #909090;
-    opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #909090;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: #909090;
-}
-
 
 /*---------------------------------------
    SOCIAL ICON
@@ -912,7 +897,7 @@ footer .social-icon {
 @media only screen and (max-width: 992px) {
     section,
     footer {
-        padding: 0px 0;
+        padding: 60px 0;
     }
 
     .home-slider .item {
@@ -1076,6 +1061,4 @@ main > section:nth-child(even) { background: #f8f8f8; }
     background-size: cover;
 }
 
-section-background {
-    margin-left: 5%;
-}
+
